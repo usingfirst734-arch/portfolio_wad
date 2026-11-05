@@ -67,8 +67,8 @@ everywhere it's used.
     --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     /* Animation */
-    --transition-fast: 0.2s ease;
-    --transition-normal: 0.3s ease;
+    --transition-fast: 0.1s ease;
+    --transition-normal: 0.2s ease;
 
     /* Border radius */
     --radius-sm: 4px;
@@ -105,7 +105,7 @@ starting point.
 html {
     scroll-behavior: smooth;
     /*
-    Makes anchor links (#section) scroll smoothly instead of jumping.
+    Makes anchor lßinks (#section) scroll smoothly instead of jumping.
     → Exercise 12: Click a navigation link to see this in action
     */
 }
@@ -323,10 +323,8 @@ header {
 
 .hero {
     background-color: var(--primary-color);
-    /*
-    Try replacing with:
     background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-    */
+
     color: var(--white);
     text-align: center;
     padding: var(--spacing-xl) 0;
